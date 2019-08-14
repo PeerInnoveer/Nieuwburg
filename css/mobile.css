@@ -1,0 +1,182 @@
+@media only screen and (max-width: 600px) {
+    html, body {
+        margin: 0;
+        /* min-height: 100%; */
+    }
+    header {
+        width: 100%;
+        height: 60px;
+    }
+    .navBrand {
+        margin-right: auto;
+        margin-top: 10px;
+        margin-left: -25px;
+    }
+    .btn-group {
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .dropdown-menu {
+        top: 47px !important;
+        border-radius: 0px !important;
+    }
+    .btn-secondary {
+        color: #fff;
+        background-color: #fff !important;
+        border-color: #fff !important;
+    }
+    .dropdown-toggle::after {
+        display: none !important;
+    }
+    .fa {
+        color: black;
+        font-size: 16px;
+    }
+
+    .masthead {
+        height: auto;
+        min-height: 620px;
+        background-image: url(../images/dana-devolk.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .headerQuoteDiv {
+        /* width: 100%; */
+        margin: 0 auto;
+        position: absolute;
+        top: 45%;
+        /* left: 50%; */
+        /* -ms-transform: translate(-50%, -50%); */
+        /* transform: translate(-50%, -50%); */
+    }
+    .quote {
+        color: #474544;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 7px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .about_heading {
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        font-size: 35px;
+        color: #474544;
+    }
+    .service_heading {
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        font-size: 35px;
+        color: #474544;
+    }
+    .gallery_heading {
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        font-size: 35px;
+        color: #474544;
+    }
+    .contact_heading {
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        font-size: 35px;
+        color:#474544;
+    }
+    
+    a {
+        color: black !important;
+        text-decoration: none;
+    }
+    .flexView {
+        display: none;
+    }
+    .bars {
+        display: flex;
+    }
+
+    .about {
+        margin-top: 170px;
+        min-height: 1000px;
+        height: 1300px;
+        background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));
+    }
+    .aboutpar {
+        padding: 0px 30px;
+    }
+    .services {
+        margin-top: 170px;
+        min-height: 900px;
+        background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));  
+    }
+    .gallery {
+        margin-top: 170px;
+        min-height: 900px;
+        background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));
+    }
+    /* Gallery */
+    .albumRow {
+        display: flex;
+        /* flex-wrap: wrap; */
+        padding: 10px 30px;
+        margin-top: 78px;
+    }
+    .albumColumn img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        /* box-shadow: 0px 0px 2px 0px #000000; */
+    }
+    .albumColumn {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+    /* end Gallery */
+    .contact {
+        margin-top: 170px;
+        min-height: auto;
+        background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));
+    }
+    footer {
+        background-color: rgb(41, 56, 77);
+        /* height: auto; */
+        overflow: hidden;
+    }
+    .follow_heading {
+        font-size: 19px;
+        color: #e0e0e0;
+        padding: 15px 0px;
+    }
+    .socialMedia {
+        display: flex;
+        justify-content: space-between;
+        max-width: 200px;
+        margin: 0 auto;
+        padding: 4px 0;
+        font-size: 22px;
+    }
+    
+    .cpright p {
+        text-align: center;
+        color: rgb(83, 101, 121);
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: 13px;
+    }
+
+    .servImage {
+        opacity: 1;
+        display: block;
+        width: 85%;
+        height: auto;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        /* border-radius: 4px; */
+        box-shadow: 0px 2px 6px 0px #424242;
+        margin: 0 auto;
+        /* margin-top: 0px; */
+        margin-bottom: 6px;
+    }
+}

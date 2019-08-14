@@ -1,0 +1,241 @@
+@import 'mobile.css';
+
+html, body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 60px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    justify-content: flex-end;
+    margin: 0px;
+}
+li {
+    margin: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.navBrand {
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+.navBrand img {
+    width: 130px;
+}
+li a {
+    color: black;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: none;
+    color: grey;
+}
+.bars {
+    display: none;
+}
+
+.masthead {
+    height: auto;
+    min-height: 1305px;
+    background-image: url(../images/dana-devolk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.headerQuoteDiv {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+.quote {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+}
+.about {
+    margin-top: 170px;
+    min-height: 1200px;
+    background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));
+}
+.aboutParDiv {
+    padding: 0px 100px;
+    margin-top: 50px;
+}
+.aboutParDiv p {
+    font-size: 20px;
+}
+.services {
+    margin-top: 170px;
+    min-height: 1200px;
+    background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));  
+}
+.gallery {
+    margin-top: 170px;
+    height: auto;
+    min-height: 1200px;
+    background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));
+}
+.contact {
+    margin-top: 170px;
+    min-height: auto;
+    background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));
+    padding: 20px;
+}
+footer {
+    background-color: rgb(41, 56, 77);
+    /* height: auto; */
+    overflow: hidden;
+}
+.about_heading {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+.services_heading {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+.gallery_heading {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+.contact_heading {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: #474544;
+}
+.follow_heading {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #e0e0e0;
+    padding: 15px 0px;
+}
+
+.servCon {
+    padding: 20px 0px;
+    margin: 0 -5px;
+    text-align: center;
+}
+.servImage {
+    opacity: 1;
+    display: block;
+    width: 50%;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    /* border-radius: 4px; */
+    box-shadow: 0px 2px 6px 0px #424242;
+    margin: 0 auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.middle {
+    /* width: 80%; */
+    transition: .5s ease;
+    position: absolute;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+    left: 50%;
+    top: 50%;
+}
+/* Start of Home Improvements */
+.HmeImp {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+}
+.HmeImp:hover .servImage {
+    opacity: 0.3;
+}
+.HmeImp:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+/* End of Home Improvements */
+/* Start of Custom Steelwork */
+.custStw {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+}
+.custStw:hover .servImage {
+    opacity: 0.3;
+}
+.custStw:hover .middle {
+    opacity: 1;
+}
+/* End of Custom steelwork */
+/* Start of Custom Wood work */
+.custWdw {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+}
+.custWdw:hover .servImage {
+    opacity: 0.3;
+}
+.custWdw:hover .middle {
+    opacity: 1;
+}
+/* End of Custom Wood word */
+/* End of Services image tags */
+/* Gallery */
+.albumRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+}
+.albumColumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    /* box-shadow: 0px 0px 2px 0px #000000; */
+}
+.albumColumn {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+/* end Gallery */
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 4px 0;
+    font-size: 30px;
+}
+.socialMedia i {
+    color: #e0e0e0;
+}
+.socialMedia i:hover {
+    color: #40649b;
+}
+.cpright p {
+    text-align: center;
+    height: 44px;
+    color: rgb(83, 101, 121);
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 16px;
+}
