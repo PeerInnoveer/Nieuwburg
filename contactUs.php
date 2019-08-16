@@ -9,7 +9,7 @@
       <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
     </svg>
   </div>
-  <form action="contactForm" method="post" id="contact_form">
+  <form action="#" method="post" id="contact_form">
     <div class="name">
       <label for="name"></label>
       <input type="text" placeholder="My name is" name="name" id="name_input" required>
@@ -36,7 +36,24 @@
       <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
     </div>
     <div class="submit">
-      <input type="submit" name="submit" value="Send Message" id="form_button" />
+      <input href="#id01" type="submit" name="submit" value="Send Message" id="form_button" onclick="document.getElementById('id01').style.display='block'"/>
     </div>
   </form><!-- // End form -->
 </div><!-- // End #container -->
+
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Modal Header</h2>
+      </header>
+      <div class="w3-container">
+        <p>Some text..</p>
+        <p>Some text..</p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Modal Footer</p>
+      </footer>
+    </div>
+  </div>

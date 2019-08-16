@@ -1,5 +1,10 @@
 @import 'mobile.css';
 
+/* Hides overflow-y on basically all browsers */
+body::-webkit-scrollbar {width: 0 !important}
+body {overflow: -moz-scrollbars-none;}
+body {-ms-overflow-style: none;}
+
 html, body {
     margin: 0;
 }
