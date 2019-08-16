@@ -87,7 +87,7 @@ li a:hover {
 .about {
     margin-top: 170px;
     min-height: 1200px;
-    background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));
+    background-image: linear-gradient(30deg, rgb(239, 228, 205), rgb(255, 255, 255));
 }
 .aboutParDiv {
     padding: 0px 100px;
@@ -98,18 +98,19 @@ li a:hover {
 .services {
     margin-top: 170px;
     min-height: 1200px;
-    background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));  
+    background-image: linear-gradient(30deg, rgb(239, 228, 205), rgb(255, 255, 255));
 }
 .gallery {
     margin-top: 170px;
     height: auto;
     min-height: 1200px;
-    background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));
+    background-image: linear-gradient(30deg, rgb(239, 228, 205), rgb(255, 255, 255));
 }
 .contact {
     margin-top: 170px;
     min-height: auto;
-    background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117));
+    /* background-image: linear-gradient(10deg, rgb(162, 162, 162), rgb(73, 99, 117)); */
+    background-image: linear-gradient(30deg, rgb(239, 228, 205), rgb(255, 255, 255));
     padding: 20px;
 }
 footer {
