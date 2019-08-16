@@ -12,6 +12,9 @@
         margin-top: 10px;
         margin-left: -25px;
     }
+    .navBrand img {
+        width: 122px;
+    }
     .btn-group {
         height: 40px;
         margin-right: 10px;
@@ -34,29 +37,15 @@
         font-size: 16px;
     }
 
-    .masthead {
+    .banner {
         height: auto;
-        min-height: 620px;
-        background-image: url(../images/dana-devolk.jpg);
+        min-height: 306px;
+        background-image: url(../images/hunter-haley.png);
         background-size: cover;
         background-position: center;
     }
     .headerQuoteDiv {
-        /* width: 100%; */
-        margin: 0 auto;
-        position: absolute;
-        top: 52%;
-        /* left: 50%; */
-        /* -ms-transform: translate(-50%, -50%); */
-        /* transform: translate(-50%, -50%); */
-    }
-    .quote {
-        color: #474544;
-        font-size: 16px;
-        font-weight: 700;
-        letter-spacing: 7px;
-        text-align: center;
-        text-transform: uppercase;
+        display: none;
     }
     .about_heading {
         font-family: 'Nunito', sans-serif;

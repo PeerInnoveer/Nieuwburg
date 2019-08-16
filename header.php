@@ -22,7 +22,7 @@
         <header>
             <nav>
                 <ul class="bars">
-                    <li class="navBrand"><img src="images/Nieuwburg-logo-black.png"></li>
+                    <li class="navBrand"><img src="images/nb_black.png"></li>
                     <div class="btn-group">
                         <button type="button" class="btn btn-secondary dropdown-toggle"
                             data-toggle="dropdown" data-display="static" aria-haspopup="true"
@@ -36,7 +36,12 @@
                     </div>
                 </ul>
                 <ul class="flexView">
-                    <li class="navBrand"><img src="images/Nieuwburg-logo-black.png"></li>
+                    <li class="navBrand"><img src="images/nb_black.png"></li>
+                    <div class="socialMediaHeader">
+                        <span><a href="https://www.facebook.com/nasteelworks/" target="_blank"><i class="fa fa-facebook"></i></a></span>
+                        <span><a href="#"><i class="fa fa-instagram"></i></a></span>
+                        <span><a href="#"><i class="fa fa-twitter-square"></i></a></span>
+                    </div>
                     <li><a href="#sectionAbout">About us</a></li>
                     <li><a href="#sectionServices">Services</a></li>
                     <li><a href="#sectionGallery">Gallery</a></li>
@@ -44,7 +49,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="masthead">
+        <section class="banner">
             <div class="headerQuoteDiv">
                 <h1 class="quote">The key to success is to start before you are ready.</h1>
                 <p class="lead text-center">- Marie Forleo</p>
